@@ -1,0 +1,160 @@
+<html>
+<head>
+<title> TCC Find a Car </title>
+
+<link rel="stylesheet" href="form.css">
+
+<style>
+
+body{text-align:center ;color:white}
+optgroup {
+            color: rgb(165, 165, 165);
+        }
+
+        option {
+            color: white;
+        }
+
+</style>
+
+
+
+</head>
+
+
+<body>
+
+  <a href="HOMEPAGE.html" >
+    <img class="pi" src="The Car Catalogue(tumble style).gif" alt="The Car Catalogue" height="125px" width="125px">
+    </a>
+  <br>
+
+<br><h1> The Car Catalogue </h1>
+<br>
+
+
+
+<form >
+<fieldset class="outer_FS">
+ <legend class="outer_L">Welcome:</legend>
+
+
+
+  <fieldset class="inner_FS" style="margin-left: 515px;">
+<legend class="inner_L">First Name:</legend>
+<input type="text" id="fname" autofocus placeholder="--First Name--">
+</fieldset>
+
+  <fieldset class="inner_FS" style="margin-top: -68px; margin-left: 775px;">
+<legend class="inner_L">Last Name:</legend>
+<input type="text" id="lname" autofocus placeholder="--Last Name--">
+  </fieldset>
+  
+  <fieldset class="inner_FS">
+<legend class="inner_L">Select Car Brand:</legend>
+<select name="cars" id="cars">
+
+  <option value="0" id="sel">Select Car Brand</option>
+<optgroup label="German Companies">
+  <option value="1" id="1">Audi</option>
+  <option value="2" id="2">Mercedes Benz</option>
+  <option value="3" id="3">BMW</option>
+  <option value="4" id="4">Porsche</option>
+</optgroup>
+
+<optgroup label="Italian Companies">
+  <option value="5" id="5">Lamborghini</option>
+  <option value="6" id="6">Ferrari</option>
+</optgroup>
+  
+<optgroup label="French Companies">
+  <option value="7" id="7">Bugatti</option>
+</optgroup>    
+
+<optgroup label="English Companies">
+  <option value="8" id="8">Aston Martin</option>
+  <option value="9" id="9">Rolls Royce</option>
+  <option value="10" id="10">Jaguar</option>
+</optgroup>    
+  
+<optgroup label="American Companies">    
+  <option value="11" id="11">Ford</option>
+  <option value="12" id="12">Chevrolet</option>
+</optgroup>   
+
+<optgroup label="Japanese Companies">
+  <option value="13" id="13">Nissan</option>
+
+</optgroup>
+  
+</select>
+
+  </fieldset>
+
+  <fieldset class="inner_FS">
+<legend class="inner_L">Mobile Number:</legend>
+<input type="tel" id="no" name="no" maxlength="10" placeholder="--Mobile Number--">
+  </fieldset>
+
+    <fieldset class="inner_FS">
+<legend class="inner_L">Email:</legend>
+<input type="email" id="email" name="email" size="30" placeholder="--Email--">
+  </fieldset>
+
+    <fieldset class="inner_FS" style="text-align: left;padding-right: 20px;">
+<legend class="inner_L">Gender:</legend>
+<input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+  </fieldset>
+
+<fieldset class="inner_FS">
+<legend class="inner_L">DOB:</legend>
+<input type="date" id="bday" name="birthday" placeholder="--Date of Birth--">
+  </fieldset>
+
+  <fieldset class="inner_FS">
+<legend class="inner_L">Country:</legend>
+<input type="text" id="country" name="country" placeholder="--Country--">
+  </fieldset>
+
+<button onclick="reset()"> Reset </button>
+<button onclick="submit()" value="submit"> Submit </button>
+
+
+<script>
+  function submit() {
+    alert("Submitted Successfully!");
+  }
+  function reset() {
+    alert("Are you sure you want to reset the form?");
+  }
+</script>
+
+</fieldset>
+</form>
+<br><br>
+<br><br>
+
+</div>
+        
+<div class="ani-area">
+    <ul class="box-area">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<html>
+<head>
+
+    <title> Post Image of Your Car </title>
+
+    <style>
+
+        
+        body{text-align:center ;color:white}
+
+        optgroup {
+            color: rgb(165, 165, 165);
+        }
+
+        option {
+            color: white;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="form.css">
+
+
+</head>
+<body>
+    
+    <a href="HOMEPAGE.html" >
+        <img class="pi" src="The Car Catalogue(tumble style).gif" alt="The Car Catalogue" height="125px" width="125px">
+        </a>
+<form>
+    <fieldset class="outer_FS">
+    
+    
+    <legend>You Can Also Post a Picture of your Favorite Car:</legend>
+    <table>
+
+        <tr>
+            <td><label for="fname">First Name:</label></td>
+            <td><input type="text" id="fname" name="fname" autocomplete="on" autofocus></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last Name:</label></td>
+            <td><input type="text" id="lname" name="lname"></td>
+        </tr>
+
+
+        <tr>
+            <td><label name="cars">Choose Car Brand:</label></td>
+            <td><select name="cars" id="cars">
+
+                <option value="0" id="sel">Select Car Brand</option>
+            <optgroup label="German Companies">
+                <option value="1" id="audi">Audi</option>
+                <option value="2" id="benz">Mercedes Benz</option>
+                <option value="" id="bmw">BMW</option>
+                <option value="" id="porsche">Porsche</option>
+            </optgroup>
+
+            <optgroup label="Italian Companies">
+                <option value="" id="lambo">Lamborghini</option>
+                <option value="" id="ferrari">Ferrari</option>
+            </optgroup>
+                
+            <optgroup label="French Companies">
+                <option value="" id="bugatti">Bugatti</option>
+            </optgroup>    
+
+            <optgroup label="English Companies">
+                <option value="" id="martin">Aston Martin</option>
+                <option value="" id="royce">Rolls Royce</option>
+                <option value="" id="jaguar">Jaguar</option>
+            </optgroup>    
+                
+            <optgroup label="American Companies">    
+                <option value="" id="ford">Ford</option>
+                <option value="" id="chevrolet">Chevrolet</option>
+            </optgroup>   
+
+            <optgroup label="Japanese Companies">
+                <option value="" id="nissan">Nissan</option>
+
+            </optgroup>
+                
+              </select>
+          </td>
+        </tr>
+
+<tr>
+    <td><label for="series">Series of the Car:</label></td>
+    <td><input type="text" id="series"></td>
+</tr>
+    
+<tr>
+    <td><label for="model">Model Name:</label></td>
+    <td><input type="text" id="model"></td>
+</tr>
+
+<tr>    
+    <td><label for="colour">Model Colour:</label></td>
+   <td> <input type="color" id="colour"><p>OR</p><input type="text" id="colour"></td>
+</tr> 
+    
+<tr>
+    <td><label for="dop">year of Purchase:</label></td>
+    <td><input type="month" id="dop"></td>
+</tr>
+
+<tr>
+    <td><label for="image">Post image of your favourite car:</label></td>
+   <td> <input type="file" id="image"></td>
+</tr>
+
+</table>
+  
+<button onclick="reset()"> Reset </button>
+<button onclick="submit()" value="submit"> Submit </button>
+
+
+<script>
+  function submit() {
+    alert("Submitted Successfully!");
+  }
+  function reset() {
+    alert("Are you sure you want to reset the form?");
+  }
+</script>
+
+    </fieldset>
+    <br>
+    </form>
+    <p> <b>Note: </b> We will Verify and check th quality before Choosing/Posting your image, So make sure that you post best clicked pics here...</p>
+    
+    <br><br>
+    </div>
+            
+    <div class="ani-area">
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    
+    
+    </div>
+</body>
+</html>
